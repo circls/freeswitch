@@ -1,8 +1,8 @@
 ---
 - name: Install FreeSwitch
   yum:
-    name: kazoo-freeswitch
-    state: latest
+    name: "kazoo-freeswitch-{{ kazoo_freeswitch_version }}.el7.centos"
+    state: present
   notify: Gracefully Restart FreeSwitch
 
 - name: Stop and Disable Default FreeSwitch

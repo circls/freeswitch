@@ -11,7 +11,9 @@ None
 Role Variables
 --------------
 
-None
+User Variables
+- kazoo_freeswitch_version - The Kazoo Freeswitch version to install from the 2600hz repo. 
+kazoo-ansible manages the version by default.
 
 Dependencies
 ------------
