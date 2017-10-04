@@ -23,7 +23,6 @@
             <param name="challenge-realm" value="auto_from"/>
             <param name="multiple-registrations" value="false"/>
             <!--<param name="max-registrations-per-extension" value="1"/>-->
-            <param name="accept-blind-reg" value="false"/>
             <param name="nonce-ttl" value="86400"/>
             <param name="disable-register" value="false"/>
             <!--<param name="NDLB-broken-auth-hash" value="true"/>-->
@@ -45,7 +44,7 @@
 
             <!-- SIP -->
             <param name="sip-ip" value="$${local_ip_v4}"/>
-	    <param name="ext-sip-ip" value="{{ public_ipv4 }}"/>
+            <param name="ext-sip-ip" value="{{ public_ipv4 }}"/>
             <param name="sip-port" value="11000"/>
             <!--<param name="outbound-proxy" value="127.0.0.1"/>-->
             <!--<param name="sip-domain" value="sip.2600hz.com"/>-->
@@ -68,7 +67,7 @@
 
             <!-- Media -->
             <param name="rtp-ip" value="$${local_ip_v4}"/>
-	    <param name="ext-rtp-ip" value="{{ public_ipv4 }}"/>
+            <param name="ext-rtp-ip" value="{{ public_ipv4 }}"/>
             <param name="rtp-timer-name" value="soft"/>
             <param name="rtp-autoflush-during-bridge" value="true"/>
             <param name="rtp-rewrite-timestamps" value="false"/>
